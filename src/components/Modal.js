@@ -17,7 +17,7 @@ const Modal = () => {
           <h4>{title}</h4>
           <p>Cooking Instructions</p>
           <p>{text}</p>
-          <a href={source} target ="_blank">Original source</a>
+          <a href={source} target ="_blank">Original source.</a>
         <button className="btn btn-hipster close-btn" onClick={closeModal} >Close</button>
         </div>
       </div>
